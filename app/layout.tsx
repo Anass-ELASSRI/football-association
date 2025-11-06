@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable} antialiased`}>
+    <html lang="en" className={`antialiased`}>
       <body suppressHydrationWarning={true}>
         <Suspense fallback={<div>Loading...</div>}>
           <LanguageProvider>{children}</LanguageProvider>
