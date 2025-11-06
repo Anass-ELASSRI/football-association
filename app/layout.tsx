@@ -1,6 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { GeistSans, GeistMono } from "geist/font/sans"
+import { GeistSans } from "geist/font/sans"
+import { GeistMono } from "geist/font/mono"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 import { LanguageProvider } from "@/lib/language-context"
